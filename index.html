@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>boomSearch</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="Boom Search Beupy Project Open Source" name="BeupyTech">
+    <meta content="BeupyTech" name="Beupy Tech">
+    <meta name="description" content="Boomsearch is a search engine developed by Beupy Tech | Beupy.Boomsearch is in development state we are looking for investor inside boomsearch we don't track our user or their search behaviour we believe in secure internet and total data privacy. Boomsearch fetch result according to your location but that doesn't mean we track or store your location we doesn't store anything. It is a product by BeupyTech.BeupyTech owns by Beupy.">
+    <meta property="og:title" content="Boomsearch, search engine by BeupyTech | Beupy" />
+    <meta name="og:description" content="Boomsearch is a search engine developed by Beupy Tech | Beupy.Boomsearch is in development state we are looking for investor inside boomsearch we don't track our user or their search behaviour we believe in secure internet and total data privacy. Boomsearch fetch result according to your location but that doesn't mean we track or store your location we doesn't store anything. It is a product by BeupyTech.BeupyTech owns by Beupy.">
+    <meta property="og:type" content="Boomsearch website" />
+   <meta property="og:url" content="http://search.beupy.com" />
+    <meta name="robots" content="index follow">
+    <meta name="keywords" content="Boomsearch, Boom, search, Search, Search Engine,search engine, engine, BeupyAPI, Beupy API API, BeupyTech, Beupy Tech, Beupy, Beupy India, India, Beupy USA, USA,RRC, SEO, Mobile Development, Web Development">
+    <meta property="og:image" content="http://api.beupy.com/image/ogimage.png">
+    <meta name="twitter:card" content="Boomsearch"/>
+    <meta property="og:title" content="Boomsearch, search engine by BeupyTech | Beupy" />
+    <meta name="twitter:title" content="Beupy is a trademark company of RRC and BeupyTech is a development corner of Beupy, BeupyAPI and Boomsearch is a product manages by BeupyTech. BeupyTech deals in various technological term like web development, Mobile Development, Android Development, Artficial Intelligence and Machine Learning">
+    <meta name="twitter:description" content="Boomsearch is a search engine developed by Beupy Tech | Beupy. Boomsearch is in development state we are looking for investor inside boomsearch we don't track our user or their search behaviour we believe in secure internet and total data privacy. Boomsearch fetch result according to your location but that doesn't mean we track or store your location we doesn't store anything. It is a product by BeupyTech. BeupyTech owns by Beupy.">
+    <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <meta charset='utf-8'>
+    <link href="style.css" rel="stylesheet">
+    <script src='external.js'></script>
+  </head>
+  <body>
+  <div id="mainContainer">
+      <div class="row mainContainer">
+          <div class="col-md-12 col-lg-12 form-wrapper"> 
+            <div class="form-head">
+                <div class="iconArea">
+                   <h2 class="mbr-section-subtitle form-subtitle mbr-fonts-style align-center pb-3 display-4 text-center">
+                     <span class='upper'>Boom</span><span class="lower">Search</span>
+                   </h2>
+                </div>
+            </div>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-12 col-lg-12 form-wrapper"> 
+            <div class="form1" data-form-type="formoid">
+              <form>
+                <div class="input-wrap" data-for="firstname">
+                    <input type="text" class="form-control query" required="" id="query">
+                    <p id="error" class="text-center"></p>
+                </div>
+             </form>
+            </div>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-12 col-lg-12 text-center"> 
+                <button type="submit" class="btn btn-lg btn-warning" id="web">Web</button>
+                <button type="submit" class="btn btn-lg btn-danger" id="video">Video</button>
+          </div>
+      </div>
+  </div>
+  <div id="resultContainer">
+      <div class="row">
+          <div class="col-md-12 col-lg-12"> 
+           <section id="result">
+              <div id="resultArea" class="result"></div>
+              <navigation>
+                  <button id="prev">&laquo; Previous</button>
+                  <button id="next">Next &raquo;</button>
+              </navigation>
+            </section>
+          </div>
+      </div>
+  </div>
+  <footer>
+      <div class="row no-gutter">
+          <div class="col-md-4 col-lg-4 text-center" id="iconArea"> 
+             <img src="im/icon.jpg" alt="Boom">
+             <blockquote class="slo">Representing Nation</blockquote>
+          </div>
+          <div class="col-md-4 col-lg-4 text-center" id="companyArea"> 
+            <p id="boom">Boom &copy; 2019 </p>
+            <p id="beupy">Developed By Beupy</p>  
+            <i class="fa fa-github" style="font-size:18px">&nbsp;<a href="https://github.com/zeay/boom-v0.0.2" target="_blank">Boom V-0.0.2</a></i>
+          </div>
+          <div class="col-md-4 col-lg-4 text-center" id="impLinks"> 
+             <aside>
+              <p class="bow">Supported Browser</p>
+              <img src="im/rom.jpg" alt="browser-chrome">
+              <img src="im/fire.jpg" alt="browser-firefox">
+              <img src="im/opp.jpg" alt="browser-opera">
+              <img src="im/ie.png" alt="browser-ie">
+             </aside>
+             <p class="fooPre">Preview Version</p>
+             <a id="updates" href="process.html">Process</a>
+             <a id="updates" href="https://beupy.com">Beupy</a>
+             <a id="updaes" href="http://beupytech.com">Beupy Tech</a>
+          </div>
+      </div>
+  </footer>
+  <script src="vendor/jquery.min.js" type="text/javascript"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="dom.js"></script>
+  <script src="index.js"></script>
+  </body>
+</html>
