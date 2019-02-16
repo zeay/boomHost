@@ -1,0 +1,28 @@
+{
+  "name": "boomgit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d boomProduction"
+  },
+  "keywords": [
+    "Boomsearch",
+    "boom",
+    "search",
+    "Beupy",
+    "BeupyTech",
+    "Beupy",
+    "Tech",
+    "beupy",
+    "beupy",
+    "tech",
+    "beupytech"
+  ],
+  "author": "kumar saurabh",
+  "license": "ISC",
+  "homepage": "https://zeay.github.io/boomHost",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
